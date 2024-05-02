@@ -22,7 +22,6 @@
 .section{
     min-height: 100vh;
     width: 100%;
-    background-color: red;
 }
 nav{
     height: 13vh;
@@ -118,4 +117,48 @@ ul li a{
 
 /* section two */
 
-
+.section-two-inner{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--light-peach);
+    transform: skewy(-6deg);
+}
+.section-two{
+    display: flex;
+    align-items: center;
+    
+}
+.section-two-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30rem;
+}
+.content-two{
+    transform: skewY(6deg);
+    margin-left: 13rem;
+}
+.content-two h1{
+    font-size: 4.5rem;
+}
+.content-two p{
+    font-size: 1.1rem;
+    margin: 10px 0 10px 0;
+    font-weight: 400;
+}
+.content-two button{
+    padding: 15px 35px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: .5px solid black;
+    cursor: pointer;
+}
+.content-two .doller{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.photo-two img{
+  margin-right: 10rem;
+    width: 28rem;
+}
